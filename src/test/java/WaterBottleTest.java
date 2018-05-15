@@ -29,6 +29,7 @@ public class WaterBottleTest {
 
     @Test
     public void fillsBottle(){
+//        need to empty the bottle first here ie waterBottle.emptyBottle();
         waterBottle.fillBottle();
         assertEquals(100, waterBottle.getVolume());
     }

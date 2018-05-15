@@ -10,6 +10,8 @@ public class CalculatorTest {
     public void before(){
         calculator = new Calculator(25, 5);
     }
+//ideal in a calculator not to initialise numbers in the new calculator. Want to test any numbers, should have the methods take in numbers as parameters.
+
 
     @Test
     public void hasNumbers(){

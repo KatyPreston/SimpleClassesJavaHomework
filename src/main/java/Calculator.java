@@ -8,22 +8,22 @@ public class Calculator {
     }
 
     public int getNumber1() {
-        return number1;
+        return this.number1;
     }
 
     public int addNumbers() {
-        return number1 + number2;
+        return this.number1 + this.number2;
     }
 
     public int subtractNumbers() {
-        return number1 - number2;
+        return this.number1 - this.number2;
     }
 
     public int multiplyNumbers() {
-        return number1 * number2;
+        return this.number1 * this.number2;
     }
 
     public int divideNumbers() {
-        return number1 / number2;
+        return this.number1 / this.number2;
     }
 }
